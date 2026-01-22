@@ -1,0 +1,53 @@
+/* app.css */
+
+#root {
+  min-height: 100vh;
+  background-color: #000;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Grid futuriste (micro lignes) */
+#root::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.12;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  background-position: -1px -1px;
+  z-index: 0;
+}
+
+/* Glows néon + scanline */
+#root::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  /* 3 blobs + scanline */
+  background:
+    /* blob 1 (fuchsia) */
+    radial-gradient(circle at 0% 0%, rgba(236,72,153,0.20) 0%, transparent 55%),
+    /* blob 2 (purple) */
+    radial-gradient(circle at 100% 100%, rgba(168,85,247,0.20) 0%, transparent 55%),
+    /* blob 3 (sky) */
+    radial-gradient(circle at 50% 35%, rgba(56,189,248,0.10) 0%, transparent 55%),
+    /* scanline */
+    linear-gradient(to bottom, transparent, rgba(255,255,255,0.04), transparent);
+
+  /* optionnel: un petit blur global */
+  filter: blur(0px);
+}
+
+/* IMPORTANT : tout ton contenu doit être au-dessus */
+#root > * {
+  position: relative;
+  z-index: 1;
+}

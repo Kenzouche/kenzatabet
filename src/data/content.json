@@ -1,0 +1,191 @@
+{
+  "site": {
+    "name": "Kenza Tabet",
+    "role": "Etudiante en informatique",
+    "location": "Avignon, FR",
+    "email": "kenzo.tabet@gmail.com",
+    "text": "Étudiante en L2 informatique, j’aime concevoir et développer des projets qui transforment des idées simples en solutions concrètes.",
+    "companyUrl": "https://www.example-company.com"
+  },
+  "socials": [
+    { "label": "GitHub", "href": "https://github.com/toncompte" },
+    { "label": "LinkedIn", "href": "https://linkedin.com/in/tonprofil" }
+  ],
+ "projects": [
+  {
+    "title": "Portfolio Neon (Vite + React)",
+    "description": "Portfolio futuriste avec animations, navigation propre et composants réutilisables.",
+    "type": "Web",
+    "year": "2026",
+    "tags": ["React", "Vite", "TypeScript", "Tailwind", "Framer Motion", "HeroUI"],
+    "highlights": [
+      "Design néon / glassmorphism",
+      "Pages modulaires + data-driven via JSON",
+      "Animations (hover / transitions / scanlines)"
+    ],
+    "href": null,
+    "repo": null,
+    "featured": true,
+    "status": "En cours"
+  },
+  {
+    "title": "API Playground (Back)",
+    "description": "API REST avec endpoints propres, validation et structure claire (objectif : back solide).",
+    "type": "Back",
+    "year": "2026",
+    "tags": ["Node", "API", "PostgreSQL", "Auth", "Validation"],
+    "highlights": [
+      "Architecture claire (routes/services)",
+      "Gestion erreurs & réponses cohérentes",
+      "Connexion base + endpoints CRUD"
+    ],
+    "href": null,
+    "repo": null,
+    "featured": true,
+    "status": "À venir"
+  },
+  {
+    "title": "Mini outil réseau",
+    "description": "Petit projet orienté réseau (diagnostic / compréhension des échanges).",
+    "type": "Réseau",
+    "year": "2026",
+    "tags": ["Réseau", "TCP/UDP", "Wireshark", "Debug"],
+    "highlights": [
+      "Analyse de flux",
+      "Approche “propre et compréhensible”",
+      "Focus sur la fiabilité"
+    ],
+    "href": null,
+    "repo": null,
+    "featured": false,
+    "status": "Idée"
+  },
+  {
+    "title": "C++ — Toolkit d’exercices",
+    "description": "Projet perso pour progresser : structures, algo, perf, et bonnes pratiques C++.",
+    "type": "C++",
+    "year": "2026",
+    "tags": ["C++", "Algorithmique", "Performance", "Clean code"],
+    "highlights": [
+      "Code lisible + structuré",
+      "Progression régulière",
+      "Base solide (types, mémoire, perf)"
+    ],
+    "href": null,
+    "repo": null,
+    "featured": false,
+    "status": "En cours"
+  }
+],
+   "skills": [
+    {
+      "group": "Front-end",
+      "tagline": "Interfaces fluides, responsives et animées.",
+      "accent": "cyan",
+      "items": [
+        { "name": "React", "level": 80, "note": "Composants, hooks, state, routing" },
+        { "name": "TypeScript", "level": 70, "note": "Typage, DX, composants robustes" },
+        { "name": "Tailwind CSS", "level": 85, "note": "Design system, responsive, variants" },
+        { "name": "HeroUI", "level": 65, "note": "Composants UI + theming" },
+        { "name": "Framer Motion", "level": 60, "note": "Animations, transitions, micro-interactions" },
+        { "name": "Accessibilité (a11y)", "level": 55, "note": "Focus, contrastes, sémantique" }
+      ]
+    },
+    {
+      "group": "Back-end",
+      "tagline": "APIs, logique métier et données.",
+      "accent": "purple",
+      "items": [
+        { "name": "Node.js", "level": 65, "note": "API, scripts, tooling" },
+        { "name": "Express", "level": 60, "note": "REST, middlewares, structure" },
+        { "name": "Auth (JWT)", "level": 55, "note": "Tokens, guards, basic security" },
+        { "name": "SQL (bases)", "level": 50, "note": "CRUD, jointures simples" },
+        { "name": "MongoDB (bases)", "level": 45, "note": "Collections, requêtes simples" }
+      ]
+    },
+    {
+      "group": "Outils & workflow",
+      "tagline": "Productivité, qualité et collaboration.",
+      "accent": "fuchsia",
+      "items": [
+        { "name": "Git / GitHub", "level": 70, "note": "Branches, PR, workflow" },
+        { "name": "Vite", "level": 75, "note": "Setup rapide, build, DX" },
+        { "name": "Postman", "level": 60, "note": "Tests API, collections" },
+        { "name": "Figma", "level": 55, "note": "Maquettes, handoff, UI" },
+        { "name": "Linux (bases)", "level": 45, "note": "CLI, scripts simples" }
+      ]
+    },
+    {
+      "group": "Langages",
+      "tagline": "Fondations et polyvalence.",
+      "accent": "sky",
+      "items": [
+        { "name": "JavaScript", "level": 75, "note": "ES6+, async, DOM" },
+        { "name": "TypeScript", "level": 70, "note": "Types, interfaces, generics simples" },
+        { "name": "Python (bases)", "level": 45, "note": "Scripts, logique, apprentissage" },
+        { "name": "Java (bases)", "level": 40, "note": "POO, projets d’école" },
+        { "name": "C (bases)", "level": 30, "note": "Structures, mémoire (intro)" }
+      ]
+    },
+    {
+      "group": "Compétences transverses",
+      "tagline": "Ce qui fait la diff’ au-delà du code.",
+      "accent": "mixed",
+      "items": [
+        { "name": "Communication", "level": 75, "note": "Clair, simple, orienté équipe" },
+        { "name": "Organisation", "level": 70, "note": "Priorités, to-do, régularité" },
+        { "name": "Autonomie", "level": 65, "note": "Recherche, tests, itération" },
+        { "name": "Sens du détail UI", "level": 80, "note": "Alignements, rythme, cohérence" },
+        { "name": "Curiosité & veille", "level": 70, "note": "Apprendre vite, explorer" }
+      ]
+    }
+  ],
+  "about": {
+  "title": "À propos",
+  "subtitle": "Quelques questions pour comprendre mon profil (sans blabla).",
+  "qa": [
+    {
+      "q": "Qui suis-je ?",
+      "a": "Je suis une développeuse full-stack, avec une préférence pour le back. J’aime construire des systèmes propres, comprendre ce qu’il se passe “sous le capot”, et garder une UI simple et efficace."
+    },
+    {
+      "q": "Qu’est-ce que je cherche en ce moment ?",
+      "a": "Je cherche une alternance pour ma licence. En parallèle, je développe aussi mon entreprise, donc je suis à l’aise avec l’autonomie, les priorités et le concret."
+    },
+    {
+      "q": "Qu’est-ce que j’aime coder ?",
+      "a": "J’aime beaucoup le C++ : la rigueur, la performance, et le côté “fondations”. J’aime aussi le réseau (avec modération), surtout quand il faut comprendre les échanges, diagnostiquer, et rendre les choses fiables."
+    },
+    {
+      "q": "Quels sont mes points forts ?",
+      "a": "Organisation et communication. Je sais structurer, avancer étape par étape, et expliquer clairement (ou demander les bonnes infos quand il faut)."
+    },
+    {
+      "q": "Et en dehors du dev ?",
+      "a": "Je joue à Dofus, je fais de la peinture, et je passe aussi du temps sur Root-Me (challenge / logique / sécurité)."
+    },
+    {
+      "q": "Comment me contacter ?",
+      "a": "Le plus simple : via la page Contact. Je réponds dès que possible 🙂"
+    }
+  ],
+  "highlights": [
+    "Full-stack avec préférence back",
+    "Organisation & priorisation",
+    "Communication claire en équipe",
+    "Curiosité (réseau / sécurité / challenges)",
+    "Entrepreneuriat en parallèle"
+  ],
+  "currentlyLearning": [
+    "Approfondir C++ (bonnes pratiques / perf)",
+    "Réseau (diagnostic, compréhension des flux)",
+    "Sécurité via challenges (Root-Me)"
+  ],
+  "cta": {
+    "primaryLabel": "Voir mes projets",
+    "primaryTo": "/projets",
+    "secondaryLabel": "Comment me contacter ?",
+    "secondaryTo": "/contact"
+  }
+  }
+}
