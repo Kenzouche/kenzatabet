@@ -22,8 +22,7 @@ export default function Home() {
             </h1>
 
             <p className="max-w-xl text-base text-white/70 sm:text-lg">
-              Texte fictif : je conçois des expériences web rapides, propres et
-              stylées — avec une obsession pour les détails.
+              {content.texts.t1}
             </p>
 
             <div className="flex items-center gap-4">
@@ -65,13 +64,12 @@ export default function Home() {
           <ActionCard
             title="Voir mon entreprise"
             desc={
-              // content?.site?.companyText ??
-              "Texte fictif : découvre mon activité, ma vision et ce que je construis au quotidien."
+              content.texts.t2
             }
             cta={
               <Button
                 as={Link}
-                href={content.site.companyUrl}
+                // href={content.site.companyUrl}
                 className="
                   group relative overflow-hidden
                   rounded-xl px-6 py-5 text-sm font-semibold
@@ -93,8 +91,7 @@ export default function Home() {
           <ActionCard
             title="Voir mes projets"
             desc={
-              // content?.site?.projectsText ??
-              "Texte fictif : une sélection de projets, du concept au pixel final, avec du code propre."
+              content.texts.t3
             }
             cta={
               <Button
@@ -121,8 +118,7 @@ export default function Home() {
           <ActionCard
             title="Me contacter"
             desc={
-              // content?.site?.contactText ??
-              "Texte fictif : dispo pour discuter, collaborer ou répondre rapidement."
+              content.texts.t4
             }
             cta={
               <Button

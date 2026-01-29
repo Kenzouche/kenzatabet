@@ -5,12 +5,19 @@
     "location": "Avignon, FR",
     "email": "kenzo.tabet@gmail.com",
     "text": "Étudiante en L2 informatique, j’aime concevoir et développer des projets qui transforment des idées simples en solutions concrètes.",
-    "companyUrl": "https://www.example-company.com"
+    "companyUrl": null
   },
   "socials": [
-    { "label": "GitHub", "href": "https://github.com/toncompte" },
-    { "label": "LinkedIn", "href": "https://linkedin.com/in/tonprofil" }
+    { "label": "GitHub", "href": "https://github.com/Kenzouche" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/kenza-tabet-1b5a7b372" }
   ],
+  "texts": {
+    "t1": "Je conçois des expériences web rapides, propres et stylées  Bienvenue dans mon portfolio !",
+    "t2": "Découvre mon activité, ma vision et ce que je construis au quotidien.",
+    "t3": "Des projets concrets qui reflètent ma progression et ma façon de coder.",
+    "t4": "N’hésite pas à me contacter pour échanger ou collaborer."
+
+  },
  "projects": [
   {
     "title": "Portfolio Neon (Vite + React)",
@@ -23,59 +30,44 @@
       "Pages modulaires + data-driven via JSON",
       "Animations (hover / transitions / scanlines)"
     ],
-    "href": null,
-    "repo": null,
-    "featured": true,
-    "status": "En cours"
-  },
-  {
-    "title": "API Playground (Back)",
-    "description": "API REST avec endpoints propres, validation et structure claire (objectif : back solide).",
-    "type": "Back",
-    "year": "2026",
-    "tags": ["Node", "API", "PostgreSQL", "Auth", "Validation"],
-    "highlights": [
-      "Architecture claire (routes/services)",
-      "Gestion erreurs & réponses cohérentes",
-      "Connexion base + endpoints CRUD"
-    ],
-    "href": null,
-    "repo": null,
-    "featured": true,
-    "status": "À venir"
-  },
-  {
-    "title": "Mini outil réseau",
-    "description": "Petit projet orienté réseau (diagnostic / compréhension des échanges).",
-    "type": "Réseau",
-    "year": "2026",
-    "tags": ["Réseau", "TCP/UDP", "Wireshark", "Debug"],
-    "highlights": [
-      "Analyse de flux",
-      "Approche “propre et compréhensible”",
-      "Focus sur la fiabilité"
-    ],
-    "href": null,
+    "href": "https://kenzatabet.pages.dev",
     "repo": null,
     "featured": false,
-    "status": "Idée"
+    "status": "Terminé"
   },
   {
-    "title": "C++ — Toolkit d’exercices",
-    "description": "Projet perso pour progresser : structures, algo, perf, et bonnes pratiques C++.",
-    "type": "C++",
-    "year": "2026",
-    "tags": ["C++", "Algorithmique", "Performance", "Clean code"],
+    "title": "Mini compilateur (C++)",
+    "description": "Projet académique : compilateur d’un langage proche de Pascal avec analyse lexicale, syntaxique et génération d’assembleur.",
+    "type": "Systèmes / Compilation",
+    "year": "2025",
+    "tags": ["C++", "Compilation", "Lex/Yacc", "Analyse syntaxique", "Assembleur"],
     "highlights": [
-      "Code lisible + structuré",
-      "Progression régulière",
-      "Base solide (types, mémoire, perf)"
+    "Analyse lexicale (Flex)",
+    "Table des symboles (identificateurs)",
+    "Gestion des erreurs",
+    "Génération de code assembleur"
     ],
     "href": null,
-    "repo": null,
-    "featured": false,
-    "status": "En cours"
-  }
+    "repo": "https://github.com/Kenzouche/mini-compilateur-cpp",
+    "featured": true,
+    "status": "Terminé"
+  },
+  {
+  "title": "Réseau routier — Structures de données (C++)",
+  "description": "Projet académique : manipulation d’un graphe routier à partir de fichiers CSV (nœuds/arcs) et étude comparative de structures de données pour optimiser recherche, insertion et suppression.",
+  "type": "Algorithmique / C++",
+  "year": "2024",
+  "tags": [ "C++", "STL", "Structures de données", "Graphes", "CSV", "Analyse de complexité", "Projet académique"],
+  "highlights": [
+    "Lecture et modélisation des données (nodes/arcs) depuis CSV",
+    "Comparaison liste chaînée vs arbre équilibré vs table de hachage",
+    "Choix final : table de hachage (`std::unordered_map`) pour de meilleures performances moyennes"
+  ],
+  "href": null,
+  "repo": null,
+  "featured": false,
+  "status": "Terminé"
+}
 ],
    "skills": [
     {
@@ -84,9 +76,9 @@
       "accent": "cyan",
       "items": [
         { "name": "React", "level": 80, "note": "Composants, hooks, state, routing" },
-        { "name": "TypeScript", "level": 70, "note": "Typage, DX, composants robustes" },
-        { "name": "Tailwind CSS", "level": 85, "note": "Design system, responsive, variants" },
-        { "name": "HeroUI", "level": 65, "note": "Composants UI + theming" },
+        { "name": "TypeScript", "level": 75, "note": "Typage, DX, composants robustes" },
+        { "name": "Tailwind CSS", "level": 90, "note": "Design system, responsive, variants" },
+        { "name": "HeroUI", "level": 70, "note": "Composants UI + theming" },
         { "name": "Framer Motion", "level": 60, "note": "Animations, transitions, micro-interactions" },
         { "name": "Accessibilité (a11y)", "level": 55, "note": "Focus, contrastes, sémantique" }
       ]
@@ -99,9 +91,11 @@
         { "name": "Node.js", "level": 65, "note": "API, scripts, tooling" },
         { "name": "Express", "level": 60, "note": "REST, middlewares, structure" },
         { "name": "Auth (JWT)", "level": 55, "note": "Tokens, guards, basic security" },
-        { "name": "SQL (bases)", "level": 50, "note": "CRUD, jointures simples" },
-        { "name": "MongoDB (bases)", "level": 45, "note": "Collections, requêtes simples" }
-      ]
+        { "name": "SQL (bases)", "level": 80, "note": "CRUD, jointures simples" },
+        { "name": "PHP", "level": 90, "note": "Développement back-end web" },
+        { "name": "Symfony", "level": 60, "note": "Framework PHP MVC" },
+        { "name": "Python (administration serveurs)", "level": 70, "note": "Scripts de gestion et automatisation" }
+  ]
     },
     {
       "group": "Outils & workflow",
@@ -110,9 +104,9 @@
       "items": [
         { "name": "Git / GitHub", "level": 70, "note": "Branches, PR, workflow" },
         { "name": "Vite", "level": 75, "note": "Setup rapide, build, DX" },
-        { "name": "Postman", "level": 60, "note": "Tests API, collections" },
-        { "name": "Figma", "level": 55, "note": "Maquettes, handoff, UI" },
-        { "name": "Linux (bases)", "level": 45, "note": "CLI, scripts simples" }
+        { "name": "Figma", "level": 70, "note": "Maquettes, handoff, UI" },
+        { "name": "Linux (bases)", "level": 90, "note": "CLI, scripts simples" },
+        { "name": "Photoshop", "level": 70, "note": "Retouches visuelles, assets UI" }
       ]
     },
     {
@@ -120,11 +114,12 @@
       "tagline": "Fondations et polyvalence.",
       "accent": "sky",
       "items": [
-        { "name": "JavaScript", "level": 75, "note": "ES6+, async, DOM" },
-        { "name": "TypeScript", "level": 70, "note": "Types, interfaces, generics simples" },
-        { "name": "Python (bases)", "level": 45, "note": "Scripts, logique, apprentissage" },
-        { "name": "Java (bases)", "level": 40, "note": "POO, projets d’école" },
-        { "name": "C (bases)", "level": 30, "note": "Structures, mémoire (intro)" }
+        { "name": "JavaScript", "level": 80, "note": "ES6+, async, DOM" },
+        { "name": "Python (bases)", "level": 80, "note": "Scripts, logique, apprentissage" },
+        { "name": "Java (bases)", "level": 55, "note": "POO, projets d’école" },
+        { "name": "C (bases)", "level": 55, "note": "Structures, mémoire (intro)" },
+        { "name": "C++", "level": 90, "note": "POO, STL, gestion mémoire" }
+         
       ]
     },
     {
@@ -142,7 +137,7 @@
   ],
   "about": {
   "title": "À propos",
-  "subtitle": "Quelques questions pour comprendre mon profil (sans blabla).",
+  "subtitle": "Quelques questions pour comprendre mon profil.",
   "qa": [
     {
       "q": "Qui suis-je ?",
@@ -172,7 +167,6 @@
   "highlights": [
     "Full-stack avec préférence back",
     "Organisation & priorisation",
-    "Communication claire en équipe",
     "Curiosité (réseau / sécurité / challenges)",
     "Entrepreneuriat en parallèle"
   ],
