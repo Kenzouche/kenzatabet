@@ -12,7 +12,7 @@
     { "label": "LinkedIn", "href": "https://www.linkedin.com/in/kenza-tabet-1b5a7b372" }
   ],
   "texts": {
-    "t1": "Je conçois des expériences web rapides, propres et stylées  Bienvenue dans mon portfolio !",
+    "t1": "Je conçois des expériences web performantes, claires et soignées. Bienvenue sur mon portfolio.",
     "t2": "Découvre mon activité, ma vision et ce que je construis au quotidien.",
     "t3": "Des projets concrets qui reflètent ma progression et ma façon de coder.",
     "t4": "N’hésite pas à me contacter pour échanger ou collaborer."
@@ -124,7 +124,7 @@
     },
     {
       "group": "Compétences transverses",
-      "tagline": "Ce qui fait la diff’ au-delà du code.",
+      "tagline": "Des compétences qui vont au-delà du code.",
       "accent": "mixed",
       "items": [
         { "name": "Communication", "level": 75, "note": "Clair, simple, orienté équipe" },
@@ -141,7 +141,7 @@
   "qa": [
     {
       "q": "Qui suis-je ?",
-      "a": "Je suis une développeuse full-stack, avec une préférence pour le back. J’aime construire des systèmes propres, comprendre ce qu’il se passe “sous le capot”, et garder une UI simple et efficace."
+      "a": "Je suis développeuse full-stack, avec une préférence pour le back-end. J’aime concevoir des systèmes propres, comprendre leur fonctionnement en profondeur et maintenir des interfaces simples et efficaces."
     },
     {
       "q": "Qu’est-ce que je cherche en ce moment ?",
@@ -149,7 +149,7 @@
     },
     {
       "q": "Qu’est-ce que j’aime coder ?",
-      "a": "J’aime beaucoup le C++ : la rigueur, la performance, et le côté “fondations”. J’aime aussi le réseau (avec modération), surtout quand il faut comprendre les échanges, diagnostiquer, et rendre les choses fiables."
+      "a": "J’aime beaucoup le C++ : la rigueur, la performance, et le côté “fondations”. J’aime aussi le réseau (avec modération), d'autant plus lorsqu'il s'agit de comprendre les échanges, diagnostiquer, et rendre les choses fiables."
     },
     {
       "q": "Quels sont mes points forts ?",
