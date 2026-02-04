@@ -33,7 +33,7 @@ Ce projet me permet de présenter mes projets, mes compétences et mon univers v
 ---
 
 ## 📸 Aperçu
-👉 [https://kenzatabet.pages.dev/contact]
+👉 [https://kenzatabet.pages.dev/]
 
 ---
 
